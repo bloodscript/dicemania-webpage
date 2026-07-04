@@ -1,7 +1,0 @@
-services:
-  dicemania-homepage:
-    build: .
-    container_name: dicemania-homepage
-    restart: unless-stopped
-    ports:
-      - "${PORT:-8080}:8080"
